@@ -1,0 +1,95 @@
+.navbar{
+  margin:0;
+  padding: 0;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  backdrop-filter: blur(100px);
+  top: 0%;
+  gap:10px;
+}
+.navbar  a{
+  color: white;
+  text-decoration: none;
+  flex-grow: 4;
+  text-align: center;
+  margin-top: 1vh;
+  padding-top: 10px;
+  font-weight: bold;
+  
+}
+
+.navbar a:hover{
+  color:red
+
+}
+.Home{
+ margin-top: 75px;
+ height:200px;
+ width: 100%;
+ align-content: center;
+}
+.homeimage{
+  background-image: url("E:\PROJECT\DEPT PROJ\ai\src\assets\homeimage3.png");
+  background-repeat: no-repeat;
+  background-size:contain;
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 10vh;
+
+}
+
+.About {
+  margin-top:65px;
+
+}
+.aboutinnertext{
+  color: white;
+  font-size: 20px;
+  margin-left: 10vw;
+  justify-content: center;
+}
+.soutercon{
+  height: fit-content;
+  width: 100%;
+  margin-top:65px;
+  display: flex;
+}
+.sinnercon{
+  background-color:white;
+  height: fit-content;
+  width: 100%;
+  flex-direction: column;
+
+}
+.contact{
+  margin-top:65px;
+  height: 275px;
+  width: 100%;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  background-color:black;
+}
+.cinnercon1{
+  
+  height: 275px;
+  width: 40%;
+  background-image: url("E:\PROJECT\DEPT PROJ\ai\src\assets\homeimage3.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-flex;
+  
+}
+.cinnercon2{
+  height: 100%;
+  width: 60%;
+  color: white;
+  text-align: center;
+  display: inline-flex;
+  font-size: small;
+  flex-direction: column;
+  
+}
